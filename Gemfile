@@ -33,7 +33,10 @@ end
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+  gem 'aws-sdk', '< 2.0'
 end
+
+gem 'figaro'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
